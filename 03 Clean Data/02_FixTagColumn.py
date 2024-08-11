@@ -6,7 +6,7 @@ import re
 # Define headers and their order
 headers = [
     #'Title',
-    #'ID',
+    'Sid',
     #'Status',
     #'Description',
     'Detection',
@@ -67,7 +67,7 @@ for root, dirs, files in os.walk(yaml_dir):
                     # Create the row with filtered Tags
                     row = [
                         #data.get('title', ''),
-                        #data.get('id', ''),
+                        data.get('id', ''),
                         #data.get('status', ''),
                         #data.get('description', ''),
                         str(data.get('detection', {})),
