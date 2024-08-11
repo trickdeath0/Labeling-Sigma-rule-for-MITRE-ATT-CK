@@ -1,0 +1,78 @@
+{
+    "T1055.009": [
+        "Proc Memory",
+        "Adversaries may inject malicious code into processes via the /proc filesystem in order to evade process-based defenses as well as possibly elevate privileges"
+    ],
+    "T1055.011": [
+        "Extra Window Memory Injection",
+        "Adversaries may inject malicious code into process via Extra Window Memory (EWM) in order to evade process-based defenses as well as possibly elevate privileges"
+    ],
+    "T1055.012": [
+        "Process Hollowing",
+        "Adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses"
+    ],
+    "T1055.013": [
+        "Process Doppelg\u00e4nging",
+        "Adversaries may inject malicious code into process via process doppelg\u00e4nging in order to evade process-based defenses as well as possibly elevate privileges"
+    ],
+    "T1055.014": [
+        "VDSO Hijacking",
+        "Adversaries may inject malicious code into processes via VDSO hijacking in order to evade process-based defenses as well as possibly elevate privileges"
+    ],
+    "T1055.015": [
+        "ListPlanting",
+        "Adversaries may abuse list-view controls to inject malicious code into hijacked processes in order to evade process-based defenses as well as possibly elevate privileges"
+    ],
+    "T1620": [
+        "Reflective Code Loading",
+        "Adversaries may reflectively load code into a process in order to conceal the execution of malicious payloads"
+    ],
+    "T1207": [
+        "Rogue Domain Controller",
+        "Adversaries may register a rogue Domain Controller to enable manipulation of Active Directory data"
+    ],
+    "T1014": [
+        "Rootkit",
+        "Adversaries may use rootkits to hide the presence of programs, files, network connections, services, drivers, and other system components"
+    ],
+    "T1553": [
+        "Subvert Trust Controls",
+        "Adversaries may undermine security controls that will either warn users of untrusted activity or prevent execution of untrusted programs"
+    ],
+    "T1553.001": [
+        "Gatekeeper Bypass",
+        "Adversaries may modify file attributes and subvert Gatekeeper functionality to evade user prompts and execute untrusted programs"
+    ],
+    "T1553.002": [
+        "Code Signing",
+        "Adversaries may create, acquire, or steal code signing materials to sign their malware or tools"
+    ],
+    "T1553.003": [
+        "SIP and Trust Provider Hijacking",
+        "Adversaries may tamper with SIP and trust provider components to mislead the operating system and application control tools when conducting signature validation checks"
+    ],
+    "T1553.004": [
+        "Install Root Certificate",
+        "Adversaries may install a root certificate on a compromised system to avoid warnings when connecting to adversary controlled web servers"
+    ],
+    "T1553.005": [
+        "Mark-of-the-Web Bypass",
+        "Adversaries may abuse specific file formats to subvert Mark-of-the-Web (MOTW) controls"
+    ],
+    "T1553.006": [
+        "Code Signing Policy Modification",
+        "Adversaries may modify code signing policies to enable execution of unsigned or self-signed code"
+    ],
+    "T1218": [
+        "System Binary Proxy Execution",
+        "Adversaries may bypass process and/or signature-based defenses by proxying execution of malicious content with signed, or otherwise trusted, binaries"
+    ],
+    "T1218.001": [
+        "Compiled HTML File",
+        "Adversaries may abuse Compiled HTML files ("
+    ],
+    "T1218.002": [
+        "Control Panel",
+        "Adversaries may abuse control"
+    ]
+}
